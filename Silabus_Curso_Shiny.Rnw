@@ -1,0 +1,138 @@
+\documentclass[12pt,a4paper,oneside]{article}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{pst-eucl,pstricks,pstricks-add}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[spanish,activeacute]{babel}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{titlesec}
+\usepackage{color}
+\usepackage{url}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{lmodern}
+\usepackage{setspace}
+%\doublespace %para doble espacio
+\onehalfspace %para espacio y medio
+\newcommand{\code}[1]{\fcolorbox{blue!80}{gray!10}{#1}}
+\parindent=0mm
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+\begin{minipage}[d]{110mm}
+\includegraphics[scale=.50]{logo_source.png}
+\end{minipage}
+\begin{minipage}[d]{50mm}
+\textsf{\textbf{\sc \tiny QUITO: Fernando Oviedo E8-65 y José Barba,}}\\
+\textsf{\textbf{\sc \tiny \qquad Sector: El Dorado}}\\
+\textsf{\textbf{\sc \tiny Contacto: (02) 2 559 703 / (593) 0998890021}}
+\end{minipage}\\
+\vspace{0.6cm}
+%\rule[1mm]{150mm}{0.5mm}
+
+\section{Quiénes somos ?}
+
+Source Stat Lab (SSL) es una empresa Ecuatoriana con sede en Quito especializada en fomentar el avance del conocimiento, misma que presta sus servicios de entrenamiento y capacitación en el lenguaje de programación R para profesionales en todas sus verticales (investigación, docencia, empresarial). SSL brinda capacitación, reportería y consultoría estadística/matemática con el uso de herramientas de software libre como: R, RStudio, R Analytic Flow $\&$ LaTeX a empresas globales y locales, así como instituciones públicas.
+
+\section{Historia}
+
+SSL nació en Septiembre 2014 con el propósito de dar servicio y asesoramiento en investigaciones aplicadas que requieran de estudios estadísticos/matemáticos asociados a las mismas.
+
+\section{Objetivos}
+
+Entre los objetivos de SSL se encuentran:
+\begin{itemize}
+  \item Potenciar las actividades relacionadas con la Estadística que se llevan a cabo en varias universidades Ecuatorianas, así como ofrecer asesoramiento estadístico tanto a grupos de investigación como a particulares y empresas.  Dicho asesoramiento se complementa con cursos de formación adaptados a las necesidades y requerimientos del usuario.
+  \item Fomentar el uso del software estadístico R en actividades académicas, profesionales e investigación.  
+\end{itemize}
+ 
+
+\section{Cursos}
+
+Durante los últimos años, las nuevas tecnologías han permitido generar, almacenar y difundir grandes cantidades de información. Para poder extraer conocimiento y generar valor, hacen falta herramientas analíticas.\newline
+
+Dado que la estadística es la herramienta determinante para la toma de decisiones y la obtención de conocimiento, SSL ofrece los siguientes cursos:
+\begin{itemize}
+  \item R Nivel Básico
+  \item R Nivel Intermedio
+  \item R Nivel Avanzado
+  \item Gráficos con ggplot2
+  \item Interfaces Web con Shiny
+  \item Reportería Dinámica
+%  \item Series Temporales
+%  \item Minería de datos
+%  \item Modelos lineales y de riesgo
+\end{itemize}
+
+
+\newpage
+
+
+\begin{center}
+{\bf \Large Interfaces de usuario con Shiny}
+\end{center}
+
+
+{\bf \large Descripción:}\newline
+
+Generalmente implementar un algoritmo en R tiene la finalidad de disminiur el tiempo de ejecución de una determinada tarea que realizarala manualmente conlleva un tiempo considerable. Un programador siempre debe tener en mente que sus implementaciones serán usadas por varios usuarios, entre ellos, aquellos que no poseen conocimientos sobre el lenguaje R, es por esta razón que es necesario desarrollar interfaces gráficas mediante las cuales el usuario pueda ejecutar el algoritmo a través de botones y controladores (widgets).\newline
+
+El curso Interfaces de Usuario con Shiny tiene como finalidad proveer al estudiante de un conjunto de herramientas necesarias para la generación de una interfaz gráfica de usuario mediante la utilización del R-paquete Shiny.\newline
+
+{\bf \large Duración:}\newline
+
+  20 Hrs.\newline
+  
+{\bf \large Requisitos:}\newline
+  
+  R nivel básico.\newline
+  
+{\bf \large Contenidos del curso:}
+
+\begin{enumerate}
+
+
+\item{Bienvenido a Shiny}
+\begin{enumerate}
+\item[1.1]{Generación el primer gráfico ggplot2.}
+\end{enumerate}
+
+\item{Diseño de la interfaz de usuario}
+\begin{enumerate}
+\item[2.1]{Generación el primer gráfico ggplot2.}
+\end{enumerate}
+
+\item{Añadir widgets de control}
+\begin{enumerate}
+\item[3.1]{Generación el primer gráfico ggplot2.}
+\end{enumerate}
+
+\item{Pantalla de salida reactiva}
+\begin{enumerate}
+\item[4.1]{Generación el primer gráfico ggplot2.}
+\end{enumerate}
+
+\item{Uso R scripts y datos}
+\begin{enumerate}
+\item[5.1]{Generación el primer gráfico ggplot2.}
+\end{enumerate}
+
+\item{Utilizar expresiones reactivas}
+\begin{enumerate}
+\item[6.1]{Generación el primer gráfico ggplot2.}
+\end{enumerate}
+
+\item{Comparte tus aplicaciones}
+\begin{enumerate}
+\item[7.1]{Generación el primer gráfico ggplot2.}
+\end{enumerate}
+
+
+\end{enumerate}
+
+
+\end{document}
