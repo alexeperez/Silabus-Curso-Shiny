@@ -96,29 +96,38 @@ El curso Interfaces de Usuario con Shiny tiene como finalidad proveer al estudia
 \begin{enumerate}
 
 
-\item{Bienvenido a Shiny}
+\item{Intruducción a Shiny}
 \begin{enumerate}
-\item[1.1]{Generación el primer gráfico ggplot2.}
+\item[1.1]{Estructura de una aplicación Shiny.}
+\item[1.2]{Ejecución de una aplicación Shiny.}
+\item[1.3]{Ejemplos aplicaciones Shiny.}
+
 \end{enumerate}
 
 \item{Diseño de la interfaz de usuario}
 \begin{enumerate}
-\item[2.1]{Generación el primer gráfico ggplot2.}
+\item[2.1]{Construcción de la interfaz de usuario.}
+\item[2.2]{Contenidos HTML.}
+\item[2.3]{Formato de texto.}
+\item[2.4]{Adición de imágenes.}
 \end{enumerate}
 
-\item{Añadir widgets de control}
+\item{Añadir widgets de control (Botones)}
 \begin{enumerate}
-\item[3.1]{Generación el primer gráfico ggplot2.}
+\item[3.1]{Widgets de control básicos.}
+\item[3.2]{Adición de widgets de control.}
 \end{enumerate}
 
-\item{Pantalla de salida reactiva}
+\item{Objetos de salida reactiva}
 \begin{enumerate}
-\item[4.1]{Generación el primer gráfico ggplot2.}
+\item[4.1]{Adición de un R objeto a la interfaz de usaurio.}
+\item[4.2]{Construcción de un objeto reactivo.}
 \end{enumerate}
 
-\item{Uso R scripts y datos}
+\item{Carga de archivos}
 \begin{enumerate}
-\item[5.1]{Generación el primer gráfico ggplot2.}
+\item[5.1]{Carga de archivos y direcciones de archivos.}
+\item[5.2]{Descarga de archivos de resultados.}
 \end{enumerate}
 
 \item{Utilizar expresiones reactivas}
