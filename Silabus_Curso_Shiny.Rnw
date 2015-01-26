@@ -40,14 +40,14 @@ Source Stat Lab (SSL) es una empresa Ecuatoriana con sede en Quito especializada
 
 \section{Historia}
 
-SSL nació en Septiembre 2014 con el propósito de dar servicio y asesoramiento en investigaciones aplicadas que requieran de estudios estadísticos/matemáticos asociados a las mismas.
+SSL fue fundada en Septiembre 2014 por un grupo de Ingenieros Matemáticos de la Escuela Politécnica Nacional con el propósito de prestar servicios de capacitación y asesoramiento en investigaciones aplicadas que requieran de estudios estadísticos/matemáticos asociados a las mismas.
 
 \section{Objetivos}
 
 Entre los objetivos de SSL se encuentran:
 \begin{itemize}
   \item Potenciar las actividades relacionadas con la Estadística que se llevan a cabo en varias universidades Ecuatorianas, así como ofrecer asesoramiento estadístico tanto a grupos de investigación como a particulares y empresas.  Dicho asesoramiento se complementa con cursos de formación adaptados a las necesidades y requerimientos del usuario.
-  \item Fomentar el uso del software estadístico R en actividades académicas, profesionales e investigación.  
+  \item Fomentar el uso del software estadístico de distribución libre {\bf R} en actividades académicas, profesionales y de investigación.
 \end{itemize}
  
 
@@ -81,7 +81,17 @@ Dado que la estadística es la herramienta determinante para la toma de decision
 
 Implementar un algoritmo en R generalmente tiene la finalidad de disminiur el tiempo de ejecución de una determinada tarea que realizarala manualmente conlleva un tiempo de trabajo considerable. Un programador siempre debe tener en mente que sus R-algoritmos serán utilizados por varios usuarios, entre ellos, aquellos que no poseen conocimiento alguno sobre el lenguaje R, es por esta razón que es necesario desarrollar interfaces gráficas mediante las cuales el usuario pueda ejecutar el algoritmo a través de botones y controladores (widgets), sin la necesidad de visualizar las lineas de código.\newline
 
-El curso Interfaces de Usuario con Shiny tiene como finalidad proveer al estudiante de un conjunto de herramientas empleadas en la generación de una interfaz gráfica de usuario mediante la utilización de uno de los mejores R-paquetes, Shiny, el mismo que después de comprender su estructura y funcionamiento resulta sencillo e intuitivo utilizarlo.\newline
+
+\begin{figure}[H]
+\begin{center}
+     \includegraphics[width=0.7\textwidth]{gui_sim_var.png}
+  \caption{Simulación de variables aleatorias.}
+  \label{simvar}
+\end{center}
+\end{figure}
+
+
+El curso Interfaces de Usuario con Shiny tiene como finalidad proveer al estudiante de un conjunto de herramientas empleadas en la generación de una interfaz gráfica de usuario mediante la utilización de uno de los mejores R-paquetes, Shiny, el mismo que después de comprender su estructura y funcionamiento resulta sencillo e intuitivo utilizarlo. En la Figura 1 se muestra un ejemplo de una interfaz básica mediante la cual se simulan un número de observaciones determinado de las distribuciones de probabilidad clásicas.\newline
 
 {\bf \large Duración:}\newline
 
@@ -137,8 +147,8 @@ El curso Interfaces de Usuario con Shiny tiene como finalidad proveer al estudia
 
 \item{Publicación de aplicaciones Shiny}
 \begin{enumerate}
-\item[6.1]{Ejecución de Interfaz RStudio.}
-\item[6.2]{Ejecución de Interfaz Navegador Web.}
+\item[6.1]{Ejecución de Interfaz mediante RStudio.}
+\item[6.2]{Ejecución de Interfaz mediante un Navegador Web.}
 \end{enumerate}
 
 
