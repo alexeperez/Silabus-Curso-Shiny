@@ -73,15 +73,15 @@ Dado que la estadística es la herramienta determinante para la toma de decision
 
 
 \begin{center}
-{\bf \Large Interfaces de usuario con Shiny}
+{\bf \Large Interfaces de Usuario con Shiny}
 \end{center}
 
 
 {\bf \large Descripción:}\newline
 
-Generalmente implementar un algoritmo en R tiene la finalidad de disminiur el tiempo de ejecución de una determinada tarea que realizarala manualmente conlleva un tiempo considerable. Un programador siempre debe tener en mente que sus implementaciones serán usadas por varios usuarios, entre ellos, aquellos que no poseen conocimientos sobre el lenguaje R, es por esta razón que es necesario desarrollar interfaces gráficas mediante las cuales el usuario pueda ejecutar el algoritmo a través de botones y controladores (widgets).\newline
+Implementar un algoritmo en R generalmente tiene la finalidad de disminiur el tiempo de ejecución de una determinada tarea que realizarala manualmente conlleva un tiempo de trabajo considerable. Un programador siempre debe tener en mente que sus R-algoritmos serán utilizados por varios usuarios, entre ellos, aquellos que no poseen conocimiento alguno sobre el lenguaje R, es por esta razón que es necesario desarrollar interfaces gráficas mediante las cuales el usuario pueda ejecutar el algoritmo a través de botones y controladores (widgets), sin la necesidad de visualizar las lineas de código.\newline
 
-El curso Interfaces de Usuario con Shiny tiene como finalidad proveer al estudiante de un conjunto de herramientas necesarias para la generación de una interfaz gráfica de usuario mediante la utilización del R-paquete Shiny.\newline
+El curso Interfaces de Usuario con Shiny tiene como finalidad proveer al estudiante de un conjunto de herramientas empleadas en la generación de una interfaz gráfica de usuario mediante la utilización de uno de los mejores R-paquetes, Shiny, el mismo que después de comprender su estructura y funcionamiento resulta sencillo e intuitivo utilizarlo.\newline
 
 {\bf \large Duración:}\newline
 
@@ -107,9 +107,9 @@ El curso Interfaces de Usuario con Shiny tiene como finalidad proveer al estudia
 \item{Diseño de la interfaz de usuario}
 \begin{enumerate}
 \item[2.1]{Construcción de la interfaz de usuario.}
-\item[2.2]{Contenidos HTML.}
+\item[2.2]{Funciones y Contenidos HTML.}
 \item[2.3]{Formato de texto.}
-\item[2.4]{Adición de imágenes.}
+\item[2.4]{Adición de imágenes y videos.}
 \end{enumerate}
 
 \item{Añadir widgets de control (Botones)}
@@ -122,22 +122,23 @@ El curso Interfaces de Usuario con Shiny tiene como finalidad proveer al estudia
 \begin{enumerate}
 \item[4.1]{Adición de un R objeto a la interfaz de usaurio.}
 \item[4.2]{Construcción de un objeto reactivo.}
+\begin{itemize}
+\item Textos reactivos.
+\item Gráficos reactivos.
+\item Tablas reactivas, etc.
+\end{itemize}
 \end{enumerate}
 
-\item{Carga de archivos}
+\item{Carga y descargo de archivos}
 \begin{enumerate}
 \item[5.1]{Carga de archivos y direcciones de archivos.}
 \item[5.2]{Descarga de archivos de resultados.}
 \end{enumerate}
 
-\item{Utilizar expresiones reactivas}
+\item{Publicación de aplicaciones Shiny}
 \begin{enumerate}
-\item[6.1]{Generación el primer gráfico ggplot2.}
-\end{enumerate}
-
-\item{Comparte tus aplicaciones}
-\begin{enumerate}
-\item[7.1]{Generación el primer gráfico ggplot2.}
+\item[6.1]{Ejecución de Interfaz RStudio.}
+\item[6.2]{Ejecución de Interfaz Navegador Web.}
 \end{enumerate}
 
 
