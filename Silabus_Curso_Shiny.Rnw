@@ -40,14 +40,14 @@ Source Stat Lab (SSL) es una empresa Ecuatoriana con sede en Quito especializada
 
 \section{Historia}
 
-SSL nació en Septiembre 2014 con el propósito de dar servicio y asesoramiento en investigaciones aplicadas que requieran de estudios estadísticos/matemáticos asociados a las mismas.
+SSL fue fundada en Septiembre 2014 por un grupo de Ingenieros Matemáticos de la Escuela Politécnica Nacional con el propósito de prestar servicios de capacitación y asesoramiento en investigaciones aplicadas que requieran de estudios estadísticos/matemáticos asociados a las mismas.
 
 \section{Objetivos}
 
 Entre los objetivos de SSL se encuentran:
 \begin{itemize}
   \item Potenciar las actividades relacionadas con la Estadística que se llevan a cabo en varias universidades Ecuatorianas, así como ofrecer asesoramiento estadístico tanto a grupos de investigación como a particulares y empresas.  Dicho asesoramiento se complementa con cursos de formación adaptados a las necesidades y requerimientos del usuario.
-  \item Fomentar el uso del software estadístico R en actividades académicas, profesionales e investigación.  
+  \item Fomentar el uso del software estadístico de distribución libre {\bf R} en actividades académicas, profesionales y de investigación.
 \end{itemize}
  
 
